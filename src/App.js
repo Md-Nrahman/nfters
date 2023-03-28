@@ -1,24 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import Footer from './common/Footer';
+import NavBar from './common/NavBar';
+import DiscoverMore from './components/DiscoverMore';
+import HeroSection from './components/HeroSection';
+import NFTArtArrival from './components/NFTArtArrival';
+import TopCollections from './components/TopCollections';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+ <>
+ <NavBar/>
+ <HeroSection/>
+ <NFTArtArrival />
+ <TopCollections />
+ <DiscoverMore/>
+ <Footer />
+ </>
   );
 }
 
