@@ -17,26 +17,13 @@ const DiscoverMore = () => {
         <h5 className="text-3xl integralBold">DISCOVER MORE NFTS</h5>
         <div className="space-y-4">
         <Button title="All Categories" />
-          <Button title="Art" background="bg-[#DCDCDC]" text="black font-medium hover:bg-gray-200" />
-          
-          <button class="inline-flex items-center font-medium bg-[#DCDCDC] border-0 mr-3 py-2 px-9 focus:outline-none hover:bg-gray-200 rounded-full text-base mt-4 md:mt-0">
-            Art
-          </button>
-          <button class="inline-flex items-center font-medium bg-[#DCDCDC] border-0 mr-3 py-2 px-9 focus:outline-none hover:bg-gray-200 rounded-full text-base mt-4 md:mt-0">
-            Celebrities
-          </button>
-          <button class="inline-flex items-center font-medium bg-[#DCDCDC] border-0 mr-3 py-2 px-9 focus:outline-none hover:bg-gray-200 rounded-full text-base mt-4 md:mt-0">
-            Gaming
-          </button>
-          <button class="inline-flex items-center font-medium bg-[#DCDCDC] border-0 mr-3 py-2 px-9 focus:outline-none hover:bg-gray-200 rounded-full text-base mt-4 md:mt-0">
-            Sport
-          </button>
-          <button class="inline-flex items-center font-medium bg-[#DCDCDC] border-0 mr-3 py-2 px-9 focus:outline-none hover:bg-gray-200 rounded-full text-base mt-4 md:mt-0">
-            Music
-          </button>
-          <button class="inline-flex items-center font-medium bg-[#DCDCDC] border-0 mr-3 py-2 px-9 focus:outline-none hover:bg-gray-200 rounded-full text-base mt-4 md:mt-0">
-            Crypto
-          </button>
+        <Button title="Art" background="bg-[#DCDCDC]" text="black font-medium hover:bg-gray-200" />
+        <Button title="Celebrities" background="bg-[#DCDCDC]" text="black font-medium hover:bg-gray-200" />
+        <Button title="Gaming" background="bg-[#DCDCDC]" text="black font-medium hover:bg-gray-200" />
+        <Button title="Sport" background="bg-[#DCDCDC]" text="black font-medium hover:bg-gray-200" />
+        <Button title="Music" background="bg-[#DCDCDC]" text="black font-medium hover:bg-gray-200" />
+          <Button title="Crypto" background="bg-[#DCDCDC]" text="black font-medium hover:bg-gray-200" />
+
         </div>
 
         <div className="grid grid-cols-4  my-8 ">
