@@ -7,7 +7,7 @@ import LiveAction from "../assets/images/heroSection/liveAction.png"
 
 const HeroSection = () => {
   return (
-    <div className='grid grid-cols-4 container m-20 lg:px-20'>
+    <div className='grid lg:grid-cols-4 grid-cols-2 container lg:m-20 m-10 lg:px-20'>
         <div className='col-span-2'>
             <h3 className='integralBold text-4xl'>Discover, and collect Digital Art NFTs</h3>
         <p className='my-4'>Digital marketplace for crypto collectibles and non-fungible tokens (NFTs). Buy, Sell, and discover exclusive digital assets.</p>
@@ -35,9 +35,9 @@ const HeroSection = () => {
 
         <div className='col-span-2 '>
 <div className='lg:ml-32 relative'>
-<img className='w-80 absolute' src={Hero1} />
-        <img className='w-80 absolute -z-10 left-6' src={Hero2} />
-        <img className='w-80 absolute -z-20 left-12' src={Hero3} />
+<img className='w-80 ' src={Hero1} />
+        <img className='w-72 absolute -z-10 left-20 top-4' src={Hero2} />
+        <img className='w-64 absolute -z-20 left-40 top-8' src={Hero3} />
           <img className='w-20 absolute z-10 top-48 -left-10' src={LiveAction} />
 </div>
           </div>

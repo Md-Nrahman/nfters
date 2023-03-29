@@ -13,20 +13,43 @@ import NFTCards from "./DiscoverMore/NFTCards";
 const DiscoverMore = () => {
   return (
     <div className="bg-[#D9E0EC]/20">
-      <div className="m-20 lg:px-20 py-10">
+      <div className="lg:m-20 m-10 lg:px-20 py-10">
         <h5 className="text-3xl integralBold">DISCOVER MORE NFTS</h5>
         <div className="space-y-4">
-        <Button title="All Categories" />
-        <Button title="Art" background="bg-[#DCDCDC]" text="black font-medium hover:bg-gray-200" />
-        <Button title="Celebrities" background="bg-[#DCDCDC]" text="black font-medium hover:bg-gray-200" />
-        <Button title="Gaming" background="bg-[#DCDCDC]" text="black font-medium hover:bg-gray-200" />
-        <Button title="Sport" background="bg-[#DCDCDC]" text="black font-medium hover:bg-gray-200" />
-        <Button title="Music" background="bg-[#DCDCDC]" text="black font-medium hover:bg-gray-200" />
-          <Button title="Crypto" background="bg-[#DCDCDC]" text="black font-medium hover:bg-gray-200" />
-
+          <Button title="All Categories" />
+          <Button
+            title="Art"
+            background="bg-[#DCDCDC]"
+            text="black font-medium hover:bg-gray-200"
+          />
+          <Button
+            title="Celebrities"
+            background="bg-[#DCDCDC]"
+            text="black font-medium hover:bg-gray-200"
+          />
+          <Button
+            title="Gaming"
+            background="bg-[#DCDCDC]"
+            text="black font-medium hover:bg-gray-200"
+          />
+          <Button
+            title="Sport"
+            background="bg-[#DCDCDC]"
+            text="black font-medium hover:bg-gray-200"
+          />
+          <Button
+            title="Music"
+            background="bg-[#DCDCDC]"
+            text="black font-medium hover:bg-gray-200"
+          />
+          <Button
+            title="Crypto"
+            background="bg-[#DCDCDC]"
+            text="black font-medium hover:bg-gray-200"
+          />
         </div>
 
-        <div className="grid grid-cols-4  my-8 ">
+        <div className="grid lg:grid-cols-4 grid-cols-2 my-8 ">
           <NFTCards
             Image1={Image1}
             profile1={profile1}
@@ -111,6 +134,15 @@ const DiscoverMore = () => {
             profile3={profile3}
             profile4={profile4}
           />
+        </div>
+
+        <div className="flex justify-center">
+        <Button
+          title="More NFTS"
+          bordered
+          background="none hover:bg-indigo-800"
+          text="text-indigo-800 hover:text-white"
+        />
         </div>
       </div>
     </div>

@@ -1,17 +1,16 @@
 import React from "react";
-import verify from "../assets/images/TopCollections/verify.png";
-import profile from "../assets/images/TopCollections/profile.png";
 import ethereum from "../assets/images/TopCollections/ethereum.png";
 import ethereum2 from "../assets/images/TopCollections/ethereum2.png";
 import Image1 from "../assets/images/TopCollections/image1.png";
 import Image2 from "../assets/images/TopCollections/image2.png";
+import profile from "../assets/images/TopCollections/profile.png";
 import top1 from "../assets/images/TopCollections/top1.png";
 import Button from "../reusables/Button";
 import PercentageCard from "./TopCollections/PercentageCard";
 const TopCollections = () => {
   return (
     <div className="">
-      <div className="m-20 lg:px-20 grid grid-cols-3 space-x-6">
+      <div className="lg:m-20 m-10 lg:px-20 grid lg:grid-cols-3 grid-cols-2 space-x-6">
         <div>
           <img src={Image1} alt="Main" />
           <div className="flex justify-between space-x-2 font-medium my-4">
@@ -100,7 +99,8 @@ const TopCollections = () => {
             </div>
           </div>
         </div>
-        <div className="space-y-8 border-l-2">
+
+        <div className="space-y-8 lg:border-l-2 my-2">
         <div>
         <h3 className="ml-8 integralBold">Top Collections Over</h3>
           <h3 className="ml-8 font-medium text-indigo-800">Last 7 days</h3>

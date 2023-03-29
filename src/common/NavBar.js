@@ -1,4 +1,5 @@
 import React from 'react'
+import Search from "../assets/images/search.png"
 
 const NavBar = () => {
   return (
@@ -12,6 +13,10 @@ const NavBar = () => {
       <a class="mr-5 hover:text-gray-900">Resource</a>
       <a class="mr-5 hover:text-gray-900">About</a>
     </nav>
+    <div className='relative my-1'>
+    <input class="bg-gray-100 mr-3 rounded-full border-0 focus:ring-2 focus:ring-indigo-800 focus:bg-white text-base outline-none text-gray-700 py-1 pl-3 pr-10 leading-8 transition-colors duration-200 ease-in-out" placeholder="Search" type="text" />
+    <img className='absolute z-10 right-6 top-2 w-6' src={Search}/>
+    </div>
     <button class="inline-flex items-center bg-indigo-800 text-white border-0 mr-3 py-2 px-9 focus:outline-none hover:bg-gray-200 rounded-full text-base mt-4 md:mt-0">Upload
           </button>
           <button class="inline-flex items-center text-indigo-800 border-2 border-indigo-800 py-2 px-9 focus:outline-none hover:bg-gray-200 rounded-full text-base mt-4 md:mt-0">Connect Wallet

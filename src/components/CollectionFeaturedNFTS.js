@@ -8,9 +8,9 @@ import CollectionFeaturedCard from './CollectionFeaturedNFTS/CollectionFeaturedC
 const CollectionFeaturedNFTS = () => {
   return (
     <div className='bg-[#D9E0EC]/20'>
-        <div className='m-20 lg:px-20 py-20'>
+        <div className='lg:m-20 m-10 lg:px-20 py-20'>
             <h1 className='text-3xl integralBold py-10'>Collection Featured NFTS</h1>
-           <div className='grid grid-cols-3 gap-3'>
+           <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-3'>
            <CollectionFeaturedCard Image1={Image1} Image2={Image2} Image3={Image3} Image4={Image4} profile={profile} />
            <CollectionFeaturedCard Image1={Image2} Image2={Image3} Image3={Image4} Image4={Image1} profile={profile} />
             <CollectionFeaturedCard Image1={Image3} Image2={Image4} Image3={Image1} Image4={Image2} profile={profile} />

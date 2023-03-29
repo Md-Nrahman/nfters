@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from '../reusables/Button'
 
 const Footer = () => {
   return (
@@ -28,57 +29,59 @@ const Footer = () => {
         </a>
       </span>
     </div>
-    <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+    <div class="flex md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
       <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Market Place</h2>
         <nav class="list-none mb-10">
           <li>
-            <a class="text-gray-600 hover:text-gray-800">First Link</a>
+            <a class="text-gray-600 hover:text-gray-800">All NFTS</a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+            <a class="text-gray-600 hover:text-gray-800">New</a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+            <a class="text-gray-600 hover:text-gray-800">Art</a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+            <a class="text-gray-600 hover:text-gray-800">Sports</a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800">Utility</a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800">Music</a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800">Domain Name</a>
           </li>
         </nav>
       </div>
       <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">My Account</h2>
         <nav class="list-none mb-10">
           <li>
-            <a class="text-gray-600 hover:text-gray-800">First Link</a>
+            <a class="text-gray-600 hover:text-gray-800">Profile</a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+            <a class="text-gray-600 hover:text-gray-800">Favorite</a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+            <a class="text-gray-600 hover:text-gray-800">My Collections</a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+            <a class="text-gray-600 hover:text-gray-800">Settings</a>
           </li>
         </nav>
       </div>
       <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
-        <nav class="list-none mb-10">
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">First Link</a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">Second Link</a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">Third Link</a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
-          </li>
-        </nav>
+        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Stay In The Loop</h2>
+        <p>Join our mailing list to stay in the loop with our newest feature releases, NFT drops, and tips and tricks for navigating NFTs.</p>
+        <div className='relative my-4'>
+    <input class="bg-gray-100 mr-3 w-96 rounded-full border-0 focus:ring-2 focus:ring-indigo-800 focus:bg-white text-base outline-none text-gray-700 py-4 pl-3 pr-10 leading-8 transition-colors duration-200 ease-in-out" placeholder="Enter your email address" type="text" />
+    <div className="absolute z-10 -right-40 top-3">
+    <Button title="Subscribe Now"  />
+    </div>
+    </div>
       </div>
     </div>
   </div>
@@ -86,6 +89,7 @@ const Footer = () => {
     <div class="container mx-auto py-4 px-5 flex justify-center">
       <p class="text-gray-500 text-sm text-center sm:text-left">© 2023 Md. Naimur Rahman
         </p>
+
       
     </div>
   </div>
