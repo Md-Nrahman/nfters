@@ -9,9 +9,9 @@ const NavBar = () => {
           <span className=" text-xl integralBold text-indigo-800">NFTERS</span>
         </span>
         <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-          <span className="mr-5 hover:text-gray-900">Marketplace</span>
-          <span className="mr-5 hover:text-gray-900">Resource</span>
-          <span className="mr-5 hover:text-gray-900">About</span>
+          <span className="mr-5 hover:text-indigo-800 hover:cursor-pointer">Marketplace</span>
+          <span className="mr-5 hover:text-indigo-800 hover:cursor-pointer">Resource</span>
+          <span className="mr-5 hover:text-indigo-800 hover:cursor-pointer">About</span>
         </nav>
         <div className="relative my-1">
           <input

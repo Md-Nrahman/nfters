@@ -9,7 +9,7 @@ const SellYourNFTS = () => {
   return (
     <div className="">
       <div className="lg:m-20 m-10 lg:px-20 md:grid lg:grid-cols-2 items-center space-x-6">
-        <div className="flex items-center justify-center space-x-10">
+        <div className="flex items-center justify-center space-x-10" data-aos="fade-right" data-aos-duration="1500">
           <div className="space-y-8 flex flex-col items-end">
             <div className="relative w-64">
               <img src={Image1} alt="" className="w-64" />
@@ -39,7 +39,7 @@ const SellYourNFTS = () => {
           </div>
         </div>
 
-        <div className="mt-10">
+        <div className="mt-10" data-aos="fade-left" data-aos-duration="1500">
           <h1 className="text-3xl integralBold text-left ">
             Create and Sell Your NFTS
           </h1>

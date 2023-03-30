@@ -5,7 +5,7 @@ const NFTCards = ({ Image1, profile1, profile2, profile3, profile4 }) => {
   return (
     <div className="bg-white p-6 mx-3 rounded-2xl w-auto mb-3">
       <div className="relative mb-7">
-        <img src={Image1} className="w-64" alt="background" />
+        <img src={Image1} className="w-full mx-auto" alt="background" />
         <img
           src={profile1}
           className="absolute z-0 -bottom-4 left-2"

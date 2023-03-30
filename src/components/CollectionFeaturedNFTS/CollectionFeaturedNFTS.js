@@ -1,14 +1,14 @@
 import React from "react";
-import Image1 from "../assets/images/CollectionFeaturedNFTS/image1.png";
-import Image2 from "../assets/images/CollectionFeaturedNFTS/image2.png";
-import Image3 from "../assets/images/CollectionFeaturedNFTS/image3.png";
-import Image4 from "../assets/images/CollectionFeaturedNFTS/image4.png";
-import profile from "../assets/images/CollectionFeaturedNFTS/profile.png";
-import CollectionFeaturedCard from "./CollectionFeaturedNFTS/CollectionFeaturedCard";
+import Image1 from "../../assets/images/CollectionFeaturedNFTS/image1.png";
+import Image2 from "../../assets/images/CollectionFeaturedNFTS/image2.png";
+import Image3 from "../../assets/images/CollectionFeaturedNFTS/image3.png";
+import Image4 from "../../assets/images/CollectionFeaturedNFTS/image4.png";
+import profile from "../../assets/images/CollectionFeaturedNFTS/profile.png";
+import CollectionFeaturedCard from "./CollectionFeaturedCard";
 const CollectionFeaturedNFTS = () => {
   return (
     <div className="bg-[#D9E0EC]/20">
-      <div className="lg:m-20 m-10 lg:px-20 py-20">
+      <div className="lg:m-20 m-10 lg:px-20 py-20" data-aos="fade-up" data-aos-duration="1500">
         <h1 className="text-3xl integralBold py-10">
           Collection Featured NFTS
         </h1>

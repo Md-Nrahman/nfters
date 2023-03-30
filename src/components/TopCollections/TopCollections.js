@@ -1,13 +1,13 @@
 import React from "react";
-import ethereum from "../assets/images/TopCollections/ethereum.png";
-import Image1 from "../assets/images/TopCollections/image1.png";
-import Image2 from "../assets/images/TopCollections/image2.png";
-import Image3 from "../assets/images/TopCollections/image3.png";
-import Image4 from "../assets/images/TopCollections/image4.png";
-import profile from "../assets/images/TopCollections/profile.png";
-import top1 from "../assets/images/TopCollections/top1.png";
-import PercentageCard from "./TopCollections/PercentageCard";
-import PlaceBidCard from "./TopCollections/PlaceBidCard";
+import ethereum from "../../assets/images/TopCollections/ethereum.png";
+import Image1 from "../../assets/images/TopCollections/image1.png";
+import Image2 from "../../assets/images/TopCollections/image2.png";
+import Image3 from "../../assets/images/TopCollections/image3.png";
+import Image4 from "../../assets/images/TopCollections/image4.png";
+import profile from "../../assets/images/TopCollections/profile.png";
+import top1 from "../../assets/images/TopCollections/top1.png";
+import PercentageCard from "./PercentageCard";
+import PlaceBidCard from "./PlaceBidCard";
 
 const TopCollections = () => {
   return (

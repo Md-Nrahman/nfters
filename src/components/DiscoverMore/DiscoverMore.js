@@ -1,14 +1,14 @@
 import React from "react";
-import Image1 from "../assets/images/DiscoverMoreNFT/image1.png";
-import Image2 from "../assets/images/DiscoverMoreNFT/image2.png";
-import Image3 from "../assets/images/DiscoverMoreNFT/image3.png";
-import Image4 from "../assets/images/DiscoverMoreNFT/image4.png";
-import profile1 from "../assets/images/DiscoverMoreNFT/profile1.png";
-import profile2 from "../assets/images/DiscoverMoreNFT/profile2.png";
-import profile3 from "../assets/images/DiscoverMoreNFT/profile3.png";
-import profile4 from "../assets/images/DiscoverMoreNFT/profile4.png";
-import Button from "../reusables/Button";
-import NFTCards from "./DiscoverMore/NFTCards";
+import Image1 from "../../assets/images/DiscoverMoreNFT/image1.png";
+import Image2 from "../../assets/images/DiscoverMoreNFT/image2.png";
+import Image3 from "../../assets/images/DiscoverMoreNFT/image3.png";
+import Image4 from "../../assets/images/DiscoverMoreNFT/image4.png";
+import profile1 from "../../assets/images/DiscoverMoreNFT/profile1.png";
+import profile2 from "../../assets/images/DiscoverMoreNFT/profile2.png";
+import profile3 from "../../assets/images/DiscoverMoreNFT/profile3.png";
+import profile4 from "../../assets/images/DiscoverMoreNFT/profile4.png";
+import Button from "../../reusables/Button";
+import NFTCards from "./NFTCards";
 
 const DiscoverMore = () => {
   return (
@@ -49,7 +49,7 @@ const DiscoverMore = () => {
           />
         </div>
 
-        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 my-8 ">
+        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 my-8" data-aos="fade-up" data-aos-duration="1500">
           <NFTCards
             Image1={Image1}
             profile1={profile1}

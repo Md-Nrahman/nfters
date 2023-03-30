@@ -1,10 +1,10 @@
 import React from "react";
+import CountUp from "react-countup";
 import DotsImage from "../assets/images/heroSection/Dot.png";
 import Hero1 from "../assets/images/heroSection/hero1.png";
 import Hero2 from "../assets/images/heroSection/hero2.png";
 import Hero3 from "../assets/images/heroSection/hero3.png";
 import LiveAction from "../assets/images/heroSection/liveAction.png";
-import CountUp from "react-countup";
 
 const HeroSection = () => {
   return (
