@@ -49,7 +49,7 @@ const DiscoverMore = () => {
           />
         </div>
 
-        <div className="grid lg:grid-cols-4 grid-cols-2 my-8 ">
+        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 my-8 ">
           <NFTCards
             Image1={Image1}
             profile1={profile1}
